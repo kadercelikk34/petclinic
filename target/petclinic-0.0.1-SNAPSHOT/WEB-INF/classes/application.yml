@@ -1,0 +1,6 @@
+logging:
+  level:
+    org.springframework.web: debug #debug düzeyindeki log mesajları
+    org.springframework.jdbc.datasource: debug
+
+  file: petclinic.log #petclinic.log dosyası otomatik oluşur proje içerisinde
